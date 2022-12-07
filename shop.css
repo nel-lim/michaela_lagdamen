@@ -275,8 +275,7 @@ content: "";
 	border-top: dotted 3px #000;
 	width: 50px;
 }*/
-
-.right_text ul li:nth-child(1):after, .right_text ul li:nth-child(2):after, .right_text ul li:nth-child(3):after, .right_text ul li:nth-child(4):after, .right_text ul li:nth-child(5):after, .right_text ul li:nth-child(6):after{
+.right_text ul li:nth-child(1):before, .right_text ul li:nth-child(2):before, .right_text ul li:nth-child(3):before, .right_text ul li:nth-child(4):before, .right_text ul li:nth-child(5):before, .right_text ul li:nth-child(6):before{
     top: 45px;
     left: 210px;
     position: absolute;
