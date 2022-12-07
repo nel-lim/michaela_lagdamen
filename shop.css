@@ -290,6 +290,7 @@ content: "";
     padding: 10px 5px;
     position: relative;
     top: -405px;
+    border-left: dashed 2px #000;
 }
 
 .right_text ul{
