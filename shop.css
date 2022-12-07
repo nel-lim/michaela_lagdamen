@@ -257,7 +257,7 @@ nav ul li a:hover{
 }
 
 .left_text ul li:nth-child(1):after{
- top: 9px;
+ top: 9px!important;
 }
 .left_text ul li:nth-child(1):after, .left_text ul li:nth-child(2):after, .left_text ul li:nth-child(3):after, .left_text ul li:nth-child(4):after{
 content: "";
@@ -276,6 +276,15 @@ content: "";
 	width: 50px;
 }*/
 
+.right_text ul li:nth-child(1):after, .right_text ul li:nth-child(2):after, .right_text ul li:nth-child(3):after, .right_text ul li:nth-child(4):after, .right_text ul li:nth-child(5):after, .right_text ul li:nth-child(6):after{
+    top: 45px;
+    left: 210px;
+    position: absolute;
+    width: 175px;
+    height: 4px;
+    border-top: dashed 1px #000;
+}
+
 .left_text p{
 	font-size: 20px;
 	font-weight: 400;
@@ -285,10 +294,10 @@ content: "";
 }
 
 .right_text{
-	float: right;
-	width: 300px;
-	padding: 10px 55px;
-	position: relative;
+    float: right;
+    width: 525px;
+    padding: 10px 5px;
+    position: relative;
     top: -405px;
 }
 
@@ -299,6 +308,7 @@ content: "";
 .right_text ul li{
 	display: block;
 	padding: 20px 0;
+	position: relative;
 }
 
 .right_text p{
