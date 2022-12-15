@@ -11,11 +11,12 @@ body{
 }
 
 .container{
-
+	max-width: 1135px;
+	margin: 0 auto;
 }
 
 .clearfix{
-	overflow: auto;
+	overflow: hidden;
 }
 
 a, li{
@@ -96,8 +97,8 @@ nav ul li a:hover{
 
 /* Hero */
 
-.hero_expanded{
-	background: url("images/hero_image.jpg") no-repeat top / cover;
+.hero_expanded {
+	background: url("img/hero_image.jpg") no-repeat top / cover;
 	position: absolute;
 	height: 650px;
 	width: 100%;
@@ -137,7 +138,7 @@ nav ul li a:hover{
 	font-family: 'Roboto', sans-serif;
 	font-size: 70px;
 	color: #fff;
-	margin: 0 80px;
+	margin: 0 95px;
 	margin-bottom: 15px;
 	text-align: left;
 }
@@ -153,12 +154,13 @@ nav ul li a:hover{
 	color: #fff;
 	line-height: 60px;
 	border-radius: 50px;
-	margin-left: 80px;
+	margin-left: 95px;
 }
 
 #hero .site_name_tag a:hover{
-	background: #fff;
+	background: #000;
 	color: #fff;
+	transition-duration: 5s;
 }
 
 /* About Us */
@@ -264,12 +266,13 @@ for final hands-on exam*/
  top: 9px!important;
 }
 .left_text ul li:nth-child(1):after, .left_text ul li:nth-child(2):after, .left_text ul li:nth-child(3):after, .left_text ul li:nth-child(4):after{
-content: "";
+	content: "";
     top: 45px;
     left: 210px;
     position: absolute;
     width: 175px;
     height: 4px;
+    border-top: dotted 3px #000;
 }
 
 /*.left_text ul li:nth-child(1), .left_text ul li:nth-child(2), .left_text ul li:nth-child(3), .left_text ul li:nth-child(4):after{
@@ -319,25 +322,29 @@ content: "";
 
 /* Footer section */
 
- {
+ footer {
 	background-color: #CFB39E;
 	padding-top: 50px;
 	padding-bottom: 5px;
 	margin-top:80px;
 }
 
-.column div a img {
+
+footer div a img{
 	width: 100px;
 	height: 170px;
-	margin-left: 180px;
+	margin-left: 145px;
+	margin-right: 40px;
 }
 
 
-.column{
-
+.column {
+	display: flex;
 }
 
 .contact_us h1 {
+	font-size: 25px;
+	color: #120A01;
 	padding-bottom: 20px;
 }
 
@@ -345,10 +352,12 @@ content: "";
 	padding-inline: 7px;
 }
 
+.contact_us ul{
+	display: flex;
+	padding: 0 19px;
+}
 
 .column h1{
-	font-size: 20px;
-	color: #120A01;
 	width: 200px;
 }
 
@@ -356,6 +365,13 @@ content: "";
 	position: relative;
 	width: 500px;
 	top: 70px;
+	padding: 0 40px;
+}
+
+.happy_hours h1{
+	font-size: 25px;
+	color: #120A01;
+	padding-bottom: 20px;
 }
 
 .happy_hours p {
@@ -363,11 +379,21 @@ content: "";
 	text-align: center;
 	white-space: pre-line;
 	position: relative;
-	left: -30px;
+	left: -25px;
+}
+
+.address h1{
+	font-size: 25px;
+	color: #120A01;
+	padding-bottom: 20px;
 }
 
 .address p {
-
+	font-size: 15px;
+	text-align: center;
+	white-space: pre-line;
+	position: relative;
+	left: -45px;
 }
 
 .copyright p{
