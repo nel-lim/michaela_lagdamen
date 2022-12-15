@@ -1,5 +1,8 @@
+/*instructor john nel lim 
+for final hands-on exam*/
+
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: '', sans-serif;
 	background: #725037;
 	height: 100%;
 	max-width: 100%;
@@ -8,9 +11,7 @@ body{
 }
 
 .container{
-	max-width: 1090px;
-	margin: 0 auto;
-	display: block;
+
 }
 
 .clearfix{
@@ -96,7 +97,7 @@ nav ul li a:hover{
 /* Hero */
 
 .hero_expanded{
-	background: url("img/hero_image.jpg") no-repeat top / cover;
+	background: url("images/hero_image.jpg") no-repeat top / cover;
 	position: absolute;
 	height: 650px;
 	width: 100%;
@@ -182,6 +183,9 @@ nav ul li a:hover{
 	padding: 0 50px;
 }
 
+/*instructor john nel lim 
+for final hands-on exam*/
+
 /* Middle */
 
 .omg_hihi{
@@ -266,7 +270,6 @@ content: "";
     position: absolute;
     width: 175px;
     height: 4px;
-    border-top: dotted 3px #000;
 }
 
 /*.left_text ul li:nth-child(1), .left_text ul li:nth-child(2), .left_text ul li:nth-child(3), .left_text ul li:nth-child(4):after{
@@ -316,7 +319,7 @@ content: "";
 
 /* Footer section */
 
-footer {
+ {
 	background-color: #CFB39E;
 	padding-top: 50px;
 	padding-bottom: 5px;
@@ -331,9 +334,7 @@ footer {
 
 
 .column{
-	display: flex;
-	justify-content: space-between;
-	gap: 80px;
+
 }
 
 .contact_us h1 {
@@ -366,11 +367,7 @@ footer {
 }
 
 .address p {
-	font-size: 15px;
-	text-align: center;
-	white-space: pre-line;
-	position: relative;
-	left: -50px;
+
 }
 
 .copyright p{
@@ -378,3 +375,7 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+
+/*instructor john nel lim 
+for final hands-on exam*/
